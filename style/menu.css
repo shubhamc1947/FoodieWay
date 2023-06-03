@@ -1,0 +1,93 @@
+/* Cateogry Section */
+
+.row{
+	display:flex;
+	justify-content:space-around;
+	
+}
+
+.cat{
+	width:25%;
+	height:55vh;
+	background-color:orange;
+	margin:10px;
+	border-radius:23px;
+	border: 4px solid orange;
+}
+
+.cat-head{
+	/* color:; */
+	margin-top:10px;
+	text-align:center;
+}
+
+/* option */
+.app{
+	background-image: url(../img/background/samosa.jpg) ;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100% ;
+	
+}
+.soup {
+	background-image: url(../img/background/soup.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+
+}
+
+.tandoori {
+	background-image: url(../img/background/tandoori.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+
+}
+
+.curry{
+		background-image: url(../img/background/butter.jpg);
+		background-repeat: no-repeat;
+		background-position: top;
+		background-size: auto 100%;
+}
+
+.veg {
+	background-image: url(../img/background/paneerpalak.jpeg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+}
+
+.bread {
+	background-image: url(../img/background/naan.jpg); 
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+}
+
+.rice {
+	background-image: url(../img/background/rice.jpeg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+}
+
+.desert{
+	background-image: url(../img/background/desert.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+}
+.beve {
+	background-image: url(../img/background/beve.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+}
+.biryani {
+	background-image: url(../img/background/biryani.jpg);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: auto 100%;
+}

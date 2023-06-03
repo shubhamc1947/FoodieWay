@@ -1,0 +1,391 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	/* internal linking ko smooth karta hai
+	*/
+	scroll-behavior:smooth;
+}
+
+/* Header Section  here */
+
+header{
+	background-color:gray;
+	position: sticky;
+	top:0;
+	/* opacity:0.5; */
+	z-index:2;
+}
+
+.header-wrap{
+	width:100%;
+	height:fit-content;
+	display:flex;
+}
+
+.header-wrap .div-logo{
+	
+	padding:0 20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.div-logo img{
+	width:60px;
+}
+
+.list-nav{
+	display:flex;
+	height:fit-content;
+}
+
+
+.list-nav li{
+	
+}
+
+
+.list-nav li a{
+	display:block;
+	padding:0 20px;
+	line-height:75px;
+}
+
+
+
+.list-nav li a:hover{
+	color:yellow;
+}
+
+
+/* Header Section  END here */
+ 
+ 
+/* Main Section here */
+
+
+main{
+	/* position: absolute; */
+	/* top:0; */
+	/* z-index: 0; */
+	height:fit-content;
+	width:100%;
+	margin-bottom:40px;
+}
+
+
+/* Hero Section here */
+
+
+.hero-Section{
+	height:60vh;
+	background:url(../img/background/bg4.jpg) no-repeat fixed ;
+	background-size: 100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+
+
+.hero-welcome , .hero-name{
+	color: white;
+	font-family:arial;
+	font-size:5rem;
+	font-weight:bold;
+}
+
+
+.hero-Section .hero-dis{
+	
+	font-family:arial;
+	color:white;
+}
+
+/* Hero Section End here */
+
+
+/* Services heading */
+
+.servies-head{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin-top:5%;
+	margin-bottom:3%;
+	
+}
+.servies-h{
+	font-family:arial;
+	font-size:4rem;
+	font-weight:bold;
+	margin-top:70px;
+}
+
+.servies-p{
+	font-family:arial;
+	font-size:3rem;
+}
+
+/* Services heading END*/
+
+/* Services option */
+
+.services-opt-wrap{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.services-opt{
+	width:50rem;
+	height:10rem;
+	background-color:orange;
+	border-radius:24px;
+	margin:20px;
+	font-size:2rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.service_div{
+}
+
+/* Services option End */
+
+
+/* all Services brief Info   */
+
+
+/* left side design */
+
+.sec_main_left{
+	display:flex;
+	justify-content:center;
+	margin-top:75px;
+}
+
+.sec_wrap_left{
+	width:80vw;
+	height:fit-content;
+	background-color:orange;
+	border-radius:25px;
+	display:flex;
+	flex-direction:column;
+	margin-top:70px;
+}
+
+.sec_head_left{
+	padding:20px;
+	font-size:3rem;
+	font-weight:bold;
+	font-family:arial;
+	margin:20px 0 20px 10px;
+}
+
+.sec_cont_left{
+	display:flex;
+	justify-content:center;
+	align-content:center;
+	
+}
+.sec_img_left{
+	margin:0 0 20px 30px;
+}
+.sec_img_left img{
+	height:390px;
+	margin:20px;
+	border-radius:23px;
+}
+
+.sec_info_left{
+	margin:70px 100px 0 100px;
+}
+.sec_info_left p{
+	font-size:2rem;
+	color:white;
+}
+
+/* left side design End*/
+
+/* right side design */
+
+.sec_main_right{
+	display:flex;
+	justify-content:center;
+}
+
+.sec_wrap_right{
+	width:80vw;
+	height:fit-content;
+	background-color:orange;
+	border-radius:25px;
+	display:flex;
+	flex-direction:column;
+	margin-top:70px;
+}
+
+.sec_head_right{
+	padding:20px;
+	font-size:3rem;
+	font-weight:bold;
+	font-family:arial;
+	margin:20px 20px 20px 10px;
+	text-align:right;
+}
+
+.sec_cont_right{
+	display:flex;
+	justify-content:center;
+	align-content:center;
+	
+}
+.sec_img_right{
+	margin:0 0 20px 30px;
+}
+.sec_img_right img{
+	height:390px;
+	margin:50px;
+	border-radius:23px;
+}
+
+.sec_info_right{
+	margin:70px 100px 0 100px;
+}
+.sec_info_right p{
+	font-size:2rem;
+	color:white;
+}
+/* right side design End  */
+
+/* our Clients */
+
+
+	/* same CSS as upside Servies head so copied */
+	
+/* Review Section  */
+
+.rev_row{
+	display:flex;
+	justify-content:center;
+}
+
+.rev_col{
+	width:20%;
+	margin:10px;
+	border-radius:20px;
+	background-color:orange;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+}
+
+.rev_per{
+	padding:10px 0;
+	display:flex;
+	justify-content:space-between;
+	margin:0 20px;
+}
+
+.rev_per_img_logo {
+	background-color:white;
+	border-radius:50%;
+	width:40px;
+}
+
+.rev_per_name{
+	font-weight:bold;
+	font-size:1.5rem;
+}
+
+.rev_cont{
+	margin:0 10px 8px;
+}
+
+
+/* footer */
+footer{
+	width:100%;
+	height:10vh;
+	padding:30px 0;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-color: gray;
+}
+
+
+.contack_a{
+	width:fit-content;
+	height:100%;
+}
+.contact_div{
+	background-color:orange;
+	border-radius:20px;
+	color:white;
+	padding:10px 20px;	
+}
+
+.contact_div:hover{
+	border-radius:12px;
+	color:black;
+	padding:15px 25px;	
+}
+
+
+
+
+
+
+.footer{
+	padding:20px;
+	text-align:center;
+}
+
+
+
+
+/* Utility Class and Auto  */
+.text-right{
+	text-align:right;
+}
+
+li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:white;
+	
+}
+body{
+	background-color:whitesmoke;
+}
+
+.hr_line{
+	border: none;
+	border-top: 10px dotted orange;
+	color: #fff;
+	background-color: whitesmoke;
+	height: 1px;
+	width: 8%;
+	margin:0 auto;
+	margin-top:8%;
+	/* margin-bottom:4%; */
+}
+
+.b{
+	font-weight:bold;
+}
+
+.i{
+	 font-style: italic;
+}
+
+.u{
+	font-decoration:underline;
+}
